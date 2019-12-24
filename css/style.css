@@ -1,0 +1,52 @@
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.left-nav{
+	width: 12rem;
+	top: 3.5rem;
+	left: 0;
+	bottom: 0;
+	padding: 0;
+	position: fixed;
+	margin-bottom: 0;
+	overflow: hidden;
+	padding-top: 1rem;
+	background: #283643;
+}
+.left-nav li{
+	padding: 0 2rem;
+	line-height: 3rem;
+	height: 3rem;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+.left-nav li a{
+  text-decoration: none;
+  color:white;
+}
+.left-nav li:hover{
+  background:#3c4248 ;
+}
+.left-nav .hover{
+	background:#3c4248 ;
+}
+.wenzi{
+	position: fixed;
+	top:3.5rem;
+	bottom:0;
+	left:12rem;
+	right:0;
+}
+h6{
+  height: 2rem;
+  line-height: 2rem;
+  color:#6c757d;
+  margin-left: 0.5rem;
+  border-bottom: 2px solid #e9ecef;
+}
+.scroll{
+  overflow: auto;
+}
